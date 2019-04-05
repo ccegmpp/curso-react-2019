@@ -7,8 +7,9 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Badge from './components/badge'
 
-const jsx = (
+/*const jsx = (
     <div>
         <h1>Hola, soy Enrique!</h1>
         <p>Soy ingeniero Front End.</p>
@@ -20,9 +21,12 @@ const element = React.createElement(
     {},
     React.createElement('h1',{}, 'Hola, soy Carlos'),
     React.createElement('p',{}, 'Soy ingeniero frontend.')
-);
+    );*/
 
 const container = document.getElementById('app');
 
 // ReactDOM.render(__qué__, __dónde__);
-ReactDOM.render(jsx, container);
+// ReactDOM.render(jsx, container);
+
+ReactDOM.render(<Badge />, container);
+
