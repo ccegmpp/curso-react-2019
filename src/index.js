@@ -7,7 +7,9 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Badge from './components/badge'
+import 'bootstrap/dist/css/bootstrap.css';
+import './global.css';
+import Badge from './components/Badge';
 
 /*const jsx = (
     <div>
