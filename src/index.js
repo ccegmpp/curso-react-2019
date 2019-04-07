@@ -9,7 +9,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.css';
 import './global.css';
-import Badge from './components/Badge';
+import BadgeNew from './pages/BadgesNew';
 
 /*const jsx = (
     <div>
@@ -27,8 +27,12 @@ const element = React.createElement(
 
 const container = document.getElementById('app');
 
+
 // ReactDOM.render(__qué__, __dónde__);
 // ReactDOM.render(jsx, container);
 
-ReactDOM.render(<Badge />, container);
+ReactDOM.render(<BadgeNew
+     />, container);
+
+    
 
